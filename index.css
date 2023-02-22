@@ -1,20 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;600&family=Montserrat:wght@600&family=Open+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Labrada:wght@400;600&family=Montserrat:wght@600&family=Open+Sans:wght@500;600&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
-h1 {
+body {
+    background-color: #F2FFFC;
+    font-family: 'Crimson Text', serif;
+    font-size: 120%;
+}
+
+main h1 {
     font-size: 60px;
-    background-color: rgb(139, 35, 56);
-    color: #fffffff1;
+    background-color: #851944;
+    color: #FFF;
     text-align: center;
     margin-bottom: 20PX;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Open Sans', sans-serif;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Open Sans', sans-serif;
-    
+}
+
+main p a {
+   color:#851944;
+   font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+blockquote {
+    background-color:#D9E5E3 ;
+}
+
+aside {
+    background-color: #3C1D3D;
+    color:#F2FFFC ;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+}
+
+nav a {
+    color: #F2FFFC;
+}
+
+#copy {
+    background-color: black;
+    color:#F2FFFC ;
+}
+
+article footer a {
+    background-color: #FFF;
 }
