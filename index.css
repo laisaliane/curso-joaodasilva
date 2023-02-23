@@ -21,6 +21,7 @@ main h1 {
     font-family:'Open Sans', sans-serif;
     border-bottom: 15px solid black;
     height: 106px;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -32,6 +33,7 @@ h2 {
     font-size: 40px;
     font-family: 'Open Sans', sans-serif;
     line-height: 91px;
+    clear: both;
 }
 
 main p a {
@@ -41,7 +43,7 @@ main p a {
   
    
 }
-div {
+main div {
     width: 720px;
     margin-left: auto;
     margin-right: auto;
@@ -51,6 +53,7 @@ p {
     text-align: justify;
     line-height: 30px;
     margin: 20px 0;
+
 }
 
 blockquote {
@@ -62,6 +65,7 @@ blockquote {
     width:198px;
     box-sizing: border-box;
     
+    
 }
 
 aside {
@@ -70,6 +74,11 @@ aside {
     list-style-type: none;
     text-align: center;
     border: 10px solid black;
+    padding: 20px;
+    float: right;
+    clear: right;
+    width: 15%;
+    box-sizing: border-box;
 }
 
 li a {
@@ -86,8 +95,9 @@ nav a {
 #copy {
     background-color: black;
     color:#F2FFFC ;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 5px;
+    clear: both;
 }
 
 article footer a {
@@ -95,7 +105,10 @@ article footer a {
 }
 
 #eu {
-    border: 15px solid black;
+    border: 10px solid black;
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
 }
 
 .inline li {
@@ -111,3 +124,25 @@ article footer a {
     padding: 8px;
     margin: 16px;
 }
+
+.fiat {
+    float: right;
+    margin: 20px;
+}
+
+.petrobras {
+    float: left;
+    margin: 20px;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+
