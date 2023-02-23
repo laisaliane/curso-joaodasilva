@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@400;600&family=Montserrat:wght@600&family=Open+Sans:wght@500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Labrada:wght@400;600&family=Montserrat:wght@600&family=Open+Sans:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Labrada:wght@400;600&family=Montserrat:wght@600&family=Open+Sans:wght@500;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -46,7 +47,7 @@ div {
     margin-right: auto;
 }
 
-p{
+p {
     text-align: justify;
     line-height: 30px;
     margin: 20px 0;
@@ -79,8 +80,7 @@ li a {
 
 nav a {
     color: #F2FFFC;
-    ;
-   
+     
 }
 
 #copy {
@@ -98,6 +98,16 @@ article footer a {
     border: 15px solid black;
 }
 
-#inline li {
+.inline li {
     display: inline-block;
+    height: 60px;
+}
+
+.leia {
+    font-size: 20px;
+    background-color: #E6E7E8;
+    text-align:center;
+    display: block;
+    padding: 8px;
+    margin: 16px;
 }
