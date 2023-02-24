@@ -98,6 +98,10 @@ nav a {
     margin-top: 10px;
     padding: 5px;
     clear: both;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
 
 article footer a {
